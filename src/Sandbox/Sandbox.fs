@@ -1,5 +1,8 @@
 module Sandbox
 
+let addition x y = 
+    x + y 
+
 [<EntryPoint>]
 let main argv =
     printfn "%A" argv
