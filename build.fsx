@@ -25,7 +25,7 @@ Target "Build" (fun _ ->
 Target "Test" (fun _ ->
     // compile all projects below src/app/
     !! "**/test/bin/Release/*test.dll"
-    |> NUnit3 (fun p -> p )
+    |> NUnit3 id 
     |> ignore
 )
 

@@ -1,4 +1,4 @@
-module test
+module Test
 
 open Sandbox
 open NUnit.Framework
